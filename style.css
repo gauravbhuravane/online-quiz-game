@@ -1,0 +1,251 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Hidden elements */
+.hidden {
+  display: none;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 18px;
+  margin: 10px 5px;
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #004ecc;
+  transform: translateY(-2px);
+}
+
+#toggle-dark {
+  background-color: #444;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 10px 14px;
+}
+
+#toggle-dark:hover {
+  background-color: #222;
+}
+
+/* Answer Buttons */
+#answers button {
+  display: block;
+  margin: 8px 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  color: #333;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.2s, border 0.3s;
+}
+
+#answers button:hover {
+  background-color: #e0e0e0;
+  border-color: #0077ff;
+  transform: scale(1.02);
+}
+
+/* Timer */
+#timer {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #e91e63;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Input Field */
+input {
+  padding: 8px;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+/* Leaderboard List */
+#leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+#leaderboard li {
+  background: #f8f8f8;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .container {
+  background: #1e1e1e;
+}
+
+.dark-mode #leaderboard li {
+  background: #2f2f2f;
+  color: #e0e0e0;
+}
+
+
+.dark-mode button {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode button:hover {
+  background-color: #555;
+}
+
+.dark-mode input {
+  background: #333;
+  color: #f1f1f1;
+  border-color: #555;
+}
+
+.dark-mode #answers button {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+}
+
+.dark-mode #answers button:hover {
+  background-color: #3a3a3a;
+  border-color: #888;
+}
+
+.config {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #f5f8fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.config label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Select dropdowns */
+.config select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.config select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.config button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #0066ff;
+  color: white;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.config button:hover {
+  background-color: #004ecc;
+  transform: scale(1.05);
+}
+
+/* Toggle dark button style */
+#toggle-dark {
+  background-color: #444;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 10px 14px;
+  margin-left: 10px;
+}
+
+#toggle-dark:hover {
+  background-color: #222;
+}
+
+/* Dark mode styles */
+.dark-mode .config {
+  background: #2a2a2a;
+}
+
+.dark-mode .config label {
+  color: #ddd;
+}
+
+.dark-mode .config select {
+  background: #333;
+  color: #fff;
+  border-color: #666;
+}

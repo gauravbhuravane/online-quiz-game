@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 Quiz Challenge</h1>
+
+    <div class="config">
+     <label>Category:
+  <select id="category">
+    <option value="all">All</option>
+    <option value="Sports">Sports</option>
+    <option value="History">History</option>
+    <option value="Science">Science</option>
+    <option value="Technology">Technology</option>
+    <option value="General Knowledge">General Knowledge</option>
+  </select>
+</label>
+
+<label>Difficulty:
+  <select id="difficulty">
+    <option value="all">All</option>
+    <option value="Easy">Easy</option>
+    <option value="Medium">Medium</option>
+    <option value="Hard">Hard</option>
+  </select>
+</label>
+
+      <button id="start-btn">Start Quiz</button>
+      <button id="toggle-dark">🌙</button>
+    </div>
+
+    <div id="quiz-box" class="hidden">
+      <div id="timer">Time: <span id="time">15</span>s</div>
+      <div id="question"></div>
+      <div id="answers"></div>
+      <button id="next-btn" class="hidden">Next</button>
+    </div>
+
+    <div id="result-box" class="hidden">
+      <h2>🎉 Quiz Completed!</h2>
+      <p id="final-score"></p>
+      <label>Enter your name:
+        <input type="text" id="username" />
+      </label>
+      <button id="save-score">Save to Leaderboard</button>
+      <button onclick="location.reload()">Play Again</button>
+    </div>
+
+    <div id="leaderboard">
+      <h2>🏆 Leaderboard</h2>
+      <ul id="leaders"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

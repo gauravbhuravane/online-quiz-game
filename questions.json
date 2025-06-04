@@ -1,0 +1,326 @@
+[
+
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": ["Tennis", "Badminton", "Squash", "Table Tennis"],
+    "answer": 1,
+    "category": "Sports",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "How many players are there in a football team?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 2,
+    "category": "Sports",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Olympics are held every how many years?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "category": "Sports",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Who holds the record for most goals in World Cup history?",
+    "options": ["Pelé", "Miroslav Klose", "Ronaldo", "Lionel Messi"],
+    "answer": 1,
+    "category": "Sports",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In tennis, what is the term for a score of zero?",
+    "options": ["Love", "Zero", "Null", "Blank"],
+    "answer": 0,
+    "category": "Sports",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "options": ["China", "Brazil", "UK", "Russia"],
+    "answer": 1,
+    "category": "Sports",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the maximum score possible in a single frame of snooker?",
+    "options": ["147", "155", "167", "150"],
+    "answer": 0,
+    "category": "Sports",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Who was the first athlete to run 100 meters under 10 seconds?",
+    "options": ["Usain Bolt", "Jim Hines", "Carl Lewis", "Jesse Owens"],
+    "answer": 1,
+    "category": "Sports",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In cricket, what is the term for when a bowler takes three wickets in three balls?",
+    "options": ["Hat-trick", "Triple", "Threefer", "Trio"],
+    "answer": 0,
+    "category": "Sports",
+    "difficulty": "Hard"
+  },
+
+ 
+  {
+    "question": "Who was the first President of the United States?",
+    "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "options": ["1945", "1944", "1946", "1943"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Great Wall of China was built to protect against which group?",
+    "options": ["Mongols", "Huns", "Romans", "Vikings"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Who was the British Prime Minister during most of World War II?",
+    "options": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Margaret Thatcher"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which empire was ruled by Suleiman the Magnificent?",
+    "options": ["Ottoman Empire", "Roman Empire", "Mongol Empire", "Persian Empire"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The Renaissance began in which country?",
+    "options": ["France", "Italy", "Germany", "Spain"],
+    "answer": 1,
+    "category": "History",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Who was the last Pharaoh of ancient Egypt?",
+    "options": ["Cleopatra", "Tutankhamun", "Ramses II", "Nefertiti"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Treaty of Versailles ended which war?",
+    "options": ["World War I", "World War II", "The Cold War", "The Napoleonic Wars"],
+    "answer": 0,
+    "category": "History",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Who led the Soviet Union during the Cuban Missile Crisis?",
+    "options": ["Joseph Stalin", "Nikita Khrushchev", "Vladimir Lenin", "Mikhail Gorbachev"],
+    "answer": 1,
+    "category": "History",
+    "difficulty": "Hard"
+  },
+
+
+  {
+    "question": "What planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "answer": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What gas do plants absorb for photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Water freezes at what temperature in Celsius?",
+    "options": ["0", "32", "-10", "100"],
+    "answer": 0,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the chemical symbol for Gold?",
+    "options": ["Au", "Ag", "Gd", "Go"],
+    "answer": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which organelle is called the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+    "answer": 1,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the speed of light in vacuum in m/s?",
+    "options": ["3 x 10^8", "3 x 10^6", "3 x 10^5", "3 x 10^7"],
+    "answer": 0,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the second law of thermodynamics about?",
+    "options": ["Energy conservation", "Entropy increases", "Mass-energy equivalence", "Newton's laws"],
+    "answer": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What type of bond involves the sharing of electron pairs?",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+    "answer": 1,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which particle has no electric charge?",
+    "options": ["Proton", "Electron", "Neutron", "Positron"],
+    "answer": 2,
+    "category": "Science",
+    "difficulty": "Hard"
+  },
+
+
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "HyperText Transmission Protocol", "High Transfer Text Protocol", "Hyper Transfer Text Protocol"],
+    "answer": 0,
+    "category": "Technology",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which company created the iPhone?",
+    "options": ["Google", "Samsung", "Apple", "Microsoft"],
+    "answer": 2,
+    "category": "Technology",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": ["Read Access Memory", "Random Access Memory", "Run Access Memory", "Readily Available Memory"],
+    "answer": 1,
+    "category": "Technology",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What programming language is primarily used for iOS development?",
+    "options": ["Java", "Kotlin", "Swift", "C#"],
+    "answer": 2,
+    "category": "Technology",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the main function of a router?",
+    "options": ["Store data", "Direct network traffic", "Provide power", "Connect to the internet"],
+    "answer": 1,
+    "category": "Technology",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does SSD stand for in computer storage?",
+    "options": ["Solid State Drive", "Software Storage Device", "Secure Storage Disk", "Standard Storage Drive"],
+    "answer": 0,
+    "category": "Technology",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which algorithm is used for public key cryptography?",
+    "options": ["AES", "RSA", "SHA-256", "MD5"],
+    "answer": 1,
+    "category": "Technology",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What year was the first website published?",
+    "options": ["1989", "1991", "1995", "1990"],
+    "answer": 1,
+    "category": "Technology",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What does the term 'Cloud Computing' refer to?",
+    "options": ["Local storage", "Distributed computing over the internet", "Desktop applications", "Hardware devices"],
+    "answer": 1,
+    "category": "Technology",
+    "difficulty": "Hard"
+  },
+
+
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "answer": 3,
+    "category": "General Knowledge",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2,
+    "category": "General Knowledge",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "South Korea", "Japan", "Thailand"],
+    "answer": 2,
+    "category": "General Knowledge",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which language has the most native speakers?",
+    "options": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+    "answer": 1,
+    "category": "General Knowledge",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What currency is used in the United Kingdom?",
+    "options": ["Euro", "Dollar", "Pound Sterling", "Yen"],
+    "answer": 2,
+    "category": "General Knowledge",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Who invented the World Wide Web?",
+    "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Mark Zuckerberg"],
+    "answer": 2,
+    "category": "General Knowledge",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the chemical formula for table salt?",
+    "options": ["NaCl", "KCl", "CaCO3", "Na2SO4"],
+    "answer": 0,
+    "category": "General Knowledge",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which country has the highest population density?",
+    "options": ["Monaco", "India", "Bangladesh", "Singapore"],
+    "answer": 0,
+    "category": "General Knowledge",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "options": ["Kathmandu", "Thimphu", "Paro", "Gelephu"],
+    "answer": 1,
+    "category": "General Knowledge",
+    "difficulty": "Hard"
+  }
+]
