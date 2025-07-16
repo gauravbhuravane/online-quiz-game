@@ -2,6 +2,8 @@
 
 This is a fully functional and user-friendly **Quiz Application** built using **HTML**, **CSS**, **JavaScript**, and a local `JSON` file. It allows users to select a **category** (e.g., Sports, Science, History) and a **difficulty level** (Easy, Medium, Hard) to answer relevant quiz questions dynamically loaded from a `questions.json` file.
 
+<b>Live Link:</b>https://online-quiz-game-pi.vercel.app/
+
 ---
 
 ## 🎯 Features
@@ -23,18 +25,6 @@ This is a fully functional and user-friendly **Quiz Application** built using **
 - JavaScript (Vanilla JS)
 - JSON (for storing questions)
 - VS Code Live Server (for running project)
-
----
-
-## 📁 Folder Structure
-
-quiz-app/
-├── index.html # Main HTML file
-├── style.css # Styling of the app
-├── script.js # JavaScript logic
-├── questions.json # All quiz questions (categorized & leveled)
-└── README.md # Project documentation (you’re reading it!)
-
 
 ---
 
